@@ -1,49 +1,59 @@
-body{
+*{
+	margin: 0;
+	padding: 0;
 	font-size: 16pt;
-	margin:0;
-	box-sizing: border-box;
 }
-
-header > nav ul, footer{
+header > nav ul{
 	list-style: none;
-	background-color: #4f4f4f;
-	margin:0;
+	background-color: #3f3f3f;
 	text-align: center;
-	font-size: 18pt;
+
 }
-header > nav ul li > a{
+header > nav ul li>a{
 	text-decoration: none;
 	color: #ffffff;
+	font-size: 18pt;
+	
 }
-
 header > nav ul li{
 	display: inline-block;
 	margin-left: 10px;
-	padding: 10px;
+	padding: 10PX;
 }
-
-footer>div{
-	padding: 10px;
+footer{
+	background-color: #3f3f3f;
 	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
-
+main{
+	margin-top: 5px;
+}
 .myphoto{
 	text-align: center;
-	color: #0077b5;
 }
 .myphoto img{
-	width:30%;
+	width: 20%;
 	border: 1px solid #000000;
 	border-radius: 50%;
 }
 .contact-form,.social-media{
 	position: relative;
 	float: left;
-	width:45%;
-	margin-left:2%; 
+	width: 45%;
+	margin: 2px;
+	border: 10px solid black;
+	padding: 10px;
+	border-radius: 4px;
+
 }
-footer{
-	position: fixed;
-	width: 100%;
-	bottom: 0;
+.social-media>a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
