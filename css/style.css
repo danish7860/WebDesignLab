@@ -1,8 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-size: 16pt;
-}
+
 header > nav ul{
 	list-style: none;
 	background-color: #3f3f3f;
@@ -50,10 +46,40 @@ main{
 	border-radius: 4px;
 
 }
-.social-media>a{
+.contact-form, input[type="submit"]{
+	width: 80px;
 	display: block;
+	margin: 0 auto;
+	background-color: #0a84ff;
+	color: #ffffff
+	border-radius: 2px;
+	border: 0;
+}
+.contact-form, input[type="submit"]:hover{
+	opacity: 0.8;
+	color: #fafafa;
+	background-color: black;
+}
+
+.social-media a{
+	display: block;
+	float: right;
 	text-decoration: none;
 	color: black;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.gallery figure img{
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+.gallery figure{
+	border: 1px solid black;
+	position: relative;
+	float: left;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+	font-style: italic;
 }
